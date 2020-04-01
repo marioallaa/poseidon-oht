@@ -1,0 +1,196 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="blank.tm.make_rss_fetch"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="28" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\me\code\make_rss_fetch\android\app\src\debug\AndroidManifest.xml:6:5-66
+14-->C:\Users\me\code\make_rss_fetch\android\app\src\debug\AndroidManifest.xml:6:22-64
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\me\.gradle\caches\transforms-2\files-2.1\a1742b3005514c7128559adc68bd77e1\firebase-iid-20.0.1\AndroidManifest.xml:22:5-79
+15-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\me\.gradle\caches\transforms-2\files-2.1\a1742b3005514c7128559adc68bd77e1\firebase-iid-20.0.1\AndroidManifest.xml:22:22-76
+16    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+16-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\me\.gradle\caches\transforms-2\files-2.1\a1742b3005514c7128559adc68bd77e1\firebase-iid-20.0.1\AndroidManifest.xml:24:5-68
+16-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\me\.gradle\caches\transforms-2\files-2.1\a1742b3005514c7128559adc68bd77e1\firebase-iid-20.0.1\AndroidManifest.xml:24:22-65
+17    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+17-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\me\.gradle\caches\transforms-2\files-2.1\a1742b3005514c7128559adc68bd77e1\firebase-iid-20.0.1\AndroidManifest.xml:26:5-82
+17-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\me\.gradle\caches\transforms-2\files-2.1\a1742b3005514c7128559adc68bd77e1\firebase-iid-20.0.1\AndroidManifest.xml:26:22-79
+18    <!--
+19 io.flutter.app.FlutterApplication is an android.app.Application that
+20         calls FlutterMain.startInitialization(this); in its onCreate method.
+21         In most cases you can leave this as-is, but you if you want to provide
+22         additional functionality it is fine to subclass or reimplement
+23         FlutterApplication and put your custom class here.
+24    -->
+25    <!--
+26 Set custom default icon. This is used when no icon is set for incoming notification messages.
+27         See README(https://goo.gl/l4GJaQ) for more.
+28    -->
+29    <application
+29-->C:\Users\me\code\make_rss_fetch\android\app\src\main\AndroidManifest.xml:12:5-41:19
+30        android:name="io.flutter.app.FlutterApplication"
+30-->C:\Users\me\code\make_rss_fetch\android\app\src\main\AndroidManifest.xml:13:9-57
+31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+31-->[androidx.core:core:1.0.0] C:\Users\me\.gradle\caches\transforms-2\files-2.1\56bd956c422b271047080580dafa6b10\core-1.0.0\AndroidManifest.xml:22:18-86
+32        android:debuggable="true"
+33        android:icon="@mipmap/ic_launcher"
+33-->C:\Users\me\code\make_rss_fetch\android\app\src\main\AndroidManifest.xml:15:9-43
+34        android:label="make_rss_fetch" >
+34-->C:\Users\me\code\make_rss_fetch\android\app\src\main\AndroidManifest.xml:14:9-39
+35        <activity
+35-->C:\Users\me\code\make_rss_fetch\android\app\src\main\AndroidManifest.xml:18:9-35:20
+36            android:name="blank.tm.make_rss_fetch.MainActivity"
+36-->C:\Users\me\code\make_rss_fetch\android\app\src\main\AndroidManifest.xml:19:13-41
+37            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+37-->C:\Users\me\code\make_rss_fetch\android\app\src\main\AndroidManifest.xml:22:13-163
+38            android:hardwareAccelerated="true"
+38-->C:\Users\me\code\make_rss_fetch\android\app\src\main\AndroidManifest.xml:23:13-47
+39            android:launchMode="singleTop"
+39-->C:\Users\me\code\make_rss_fetch\android\app\src\main\AndroidManifest.xml:20:13-43
+40            android:theme="@style/LaunchTheme"
+40-->C:\Users\me\code\make_rss_fetch\android\app\src\main\AndroidManifest.xml:21:13-47
+41            android:windowSoftInputMode="adjustResize" >
+41-->C:\Users\me\code\make_rss_fetch\android\app\src\main\AndroidManifest.xml:24:13-55
+42            <intent-filter>
+42-->C:\Users\me\code\make_rss_fetch\android\app\src\main\AndroidManifest.xml:25:13-28:29
+43                <action android:name="android.intent.action.MAIN" />
+43-->C:\Users\me\code\make_rss_fetch\android\app\src\main\AndroidManifest.xml:26:17-68
+43-->C:\Users\me\code\make_rss_fetch\android\app\src\main\AndroidManifest.xml:26:25-66
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->C:\Users\me\code\make_rss_fetch\android\app\src\main\AndroidManifest.xml:27:17-76
+45-->C:\Users\me\code\make_rss_fetch\android\app\src\main\AndroidManifest.xml:27:27-74
+46            </intent-filter>
+47            <intent-filter>
+47-->C:\Users\me\code\make_rss_fetch\android\app\src\main\AndroidManifest.xml:30:13-33:29
+48                <action android:name="FLUTTER_NOTIFICATION_CLICK" />
+48-->C:\Users\me\code\make_rss_fetch\android\app\src\main\AndroidManifest.xml:31:17-69
+48-->C:\Users\me\code\make_rss_fetch\android\app\src\main\AndroidManifest.xml:31:25-66
+49
+50                <category android:name="android.intent.category.DEFAULT" />
+50-->C:\Users\me\code\make_rss_fetch\android\app\src\main\AndroidManifest.xml:32:17-76
+50-->C:\Users\me\code\make_rss_fetch\android\app\src\main\AndroidManifest.xml:32:27-73
+51            </intent-filter>
+52        </activity>
+53        <!--
+54             Don't delete the meta-data below.
+55             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+56        -->
+57        <meta-data
+57-->C:\Users\me\code\make_rss_fetch\android\app\src\main\AndroidManifest.xml:38:9-40:33
+58            android:name="flutterEmbedding"
+58-->C:\Users\me\code\make_rss_fetch\android\app\src\main\AndroidManifest.xml:39:13-44
+59            android:value="2" />
+59-->C:\Users\me\code\make_rss_fetch\android\app\src\main\AndroidManifest.xml:40:13-30
+60
+61        <service android:name="io.flutter.plugins.firebasemessaging.FlutterFirebaseMessagingService" >
+61-->[:firebase_messaging] C:\Users\me\code\make_rss_fetch\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+61-->[:firebase_messaging] C:\Users\me\code\make_rss_fetch\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-101
+62            <intent-filter>
+62-->[:firebase_messaging] C:\Users\me\code\make_rss_fetch\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:29
+63                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+63-->[:firebase_messaging] C:\Users\me\code\make_rss_fetch\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-78
+63-->[:firebase_messaging] C:\Users\me\code\make_rss_fetch\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:10:25-75
+64            </intent-filter>
+65        </service>
+66        <service
+66-->[:firebase_messaging] C:\Users\me\code\make_rss_fetch\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:13:9-17:19
+67            android:name="com.google.firebase.components.ComponentDiscoveryService"
+67-->[:firebase_messaging] C:\Users\me\code\make_rss_fetch\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:13:18-89
+68            android:directBootAware="true"
+68-->[com.google.firebase:firebase-common:19.2.0] C:\Users\me\.gradle\caches\transforms-2\files-2.1\46c64c185079ff9281144c907343f979\firebase-common-19.2.0\AndroidManifest.xml:15:13-43
+69            android:exported="false" >
+69-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\me\.gradle\caches\transforms-2\files-2.1\a1742b3005514c7128559adc68bd77e1\firebase-iid-20.0.1\AndroidManifest.xml:31:13-37
+70            <meta-data
+70-->[:firebase_messaging] C:\Users\me\code\make_rss_fetch\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-16:85
+71                android:name="com.google.firebase.components:io.flutter.plugins.firebasemessaging.FlutterFirebaseAppRegistrar"
+71-->[:firebase_messaging] C:\Users\me\code\make_rss_fetch\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-127
+72                android:value="com.google.firebase.components.ComponentRegistrar" />
+72-->[:firebase_messaging] C:\Users\me\code\make_rss_fetch\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:16:17-82
+73            <meta-data
+73-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\me\.gradle\caches\transforms-2\files-2.1\a1742b3005514c7128559adc68bd77e1\firebase-iid-20.0.1\AndroidManifest.xml:32:13-34:85
+74                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+74-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\me\.gradle\caches\transforms-2\files-2.1\a1742b3005514c7128559adc68bd77e1\firebase-iid-20.0.1\AndroidManifest.xml:33:17-96
+75                android:value="com.google.firebase.components.ComponentRegistrar" />
+75-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\me\.gradle\caches\transforms-2\files-2.1\a1742b3005514c7128559adc68bd77e1\firebase-iid-20.0.1\AndroidManifest.xml:34:17-82
+76        </service>
+77
+78        <activity
+78-->[:url_launcher] C:\Users\me\code\make_rss_fetch\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:74
+79            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+79-->[:url_launcher] C:\Users\me\code\make_rss_fetch\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-74
+80            android:exported="false"
+80-->[:url_launcher] C:\Users\me\code\make_rss_fetch\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-37
+81            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+81-->[:url_launcher] C:\Users\me\code\make_rss_fetch\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-71
+82        <!--
+83             FirebaseMessagingService performs security checks at runtime,
+84             but set to not exported to explicitly avoid allowing another app to call it.
+85        -->
+86        <service
+86-->[com.google.firebase:firebase-messaging:20.0.1] C:\Users\me\.gradle\caches\transforms-2\files-2.1\c1935a946bc9aba9c118c384a1b53aff\jetified-firebase-messaging-20.0.1\AndroidManifest.xml:28:9-34:19
+87            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+87-->[com.google.firebase:firebase-messaging:20.0.1] C:\Users\me\.gradle\caches\transforms-2\files-2.1\c1935a946bc9aba9c118c384a1b53aff\jetified-firebase-messaging-20.0.1\AndroidManifest.xml:29:13-82
+88            android:exported="false" >
+88-->[com.google.firebase:firebase-messaging:20.0.1] C:\Users\me\.gradle\caches\transforms-2\files-2.1\c1935a946bc9aba9c118c384a1b53aff\jetified-firebase-messaging-20.0.1\AndroidManifest.xml:30:13-37
+89            <intent-filter android:priority="-500" >
+89-->[:firebase_messaging] C:\Users\me\code\make_rss_fetch\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:29
+90                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+90-->[:firebase_messaging] C:\Users\me\code\make_rss_fetch\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-78
+90-->[:firebase_messaging] C:\Users\me\code\make_rss_fetch\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:10:25-75
+91            </intent-filter>
+92        </service>
+93
+94        <receiver
+94-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\me\.gradle\caches\transforms-2\files-2.1\a1742b3005514c7128559adc68bd77e1\firebase-iid-20.0.1\AndroidManifest.xml:37:9-44:20
+95            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+95-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\me\.gradle\caches\transforms-2\files-2.1\a1742b3005514c7128559adc68bd77e1\firebase-iid-20.0.1\AndroidManifest.xml:38:13-78
+96            android:exported="true"
+96-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\me\.gradle\caches\transforms-2\files-2.1\a1742b3005514c7128559adc68bd77e1\firebase-iid-20.0.1\AndroidManifest.xml:39:13-36
+97            android:permission="com.google.android.c2dm.permission.SEND" >
+97-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\me\.gradle\caches\transforms-2\files-2.1\a1742b3005514c7128559adc68bd77e1\firebase-iid-20.0.1\AndroidManifest.xml:40:13-73
+98            <intent-filter>
+98-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\me\.gradle\caches\transforms-2\files-2.1\a1742b3005514c7128559adc68bd77e1\firebase-iid-20.0.1\AndroidManifest.xml:41:13-43:29
+99                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+99-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\me\.gradle\caches\transforms-2\files-2.1\a1742b3005514c7128559adc68bd77e1\firebase-iid-20.0.1\AndroidManifest.xml:42:17-81
+99-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\me\.gradle\caches\transforms-2\files-2.1\a1742b3005514c7128559adc68bd77e1\firebase-iid-20.0.1\AndroidManifest.xml:42:25-78
+100            </intent-filter>
+101        </receiver>
+102
+103        <provider
+103-->[com.google.firebase:firebase-common:19.2.0] C:\Users\me\.gradle\caches\transforms-2\files-2.1\46c64c185079ff9281144c907343f979\firebase-common-19.2.0\AndroidManifest.xml:19:9-23:39
+104            android:name="com.google.firebase.provider.FirebaseInitProvider"
+104-->[com.google.firebase:firebase-common:19.2.0] C:\Users\me\.gradle\caches\transforms-2\files-2.1\46c64c185079ff9281144c907343f979\firebase-common-19.2.0\AndroidManifest.xml:20:13-77
+105            android:authorities="blank.tm.make_rss_fetch.firebaseinitprovider"
+105-->[com.google.firebase:firebase-common:19.2.0] C:\Users\me\.gradle\caches\transforms-2\files-2.1\46c64c185079ff9281144c907343f979\firebase-common-19.2.0\AndroidManifest.xml:21:13-72
+106            android:exported="false"
+106-->[com.google.firebase:firebase-common:19.2.0] C:\Users\me\.gradle\caches\transforms-2\files-2.1\46c64c185079ff9281144c907343f979\firebase-common-19.2.0\AndroidManifest.xml:22:13-37
+107            android:initOrder="100" />
+107-->[com.google.firebase:firebase-common:19.2.0] C:\Users\me\.gradle\caches\transforms-2\files-2.1\46c64c185079ff9281144c907343f979\firebase-common-19.2.0\AndroidManifest.xml:23:13-36
+108
+109        <activity
+109-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\me\.gradle\caches\transforms-2\files-2.1\a63fdc3bf3db1bfe3cdac538e83846cd\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+110            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+110-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\me\.gradle\caches\transforms-2\files-2.1\a63fdc3bf3db1bfe3cdac538e83846cd\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+111            android:exported="false"
+111-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\me\.gradle\caches\transforms-2\files-2.1\a63fdc3bf3db1bfe3cdac538e83846cd\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+112            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+112-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\me\.gradle\caches\transforms-2\files-2.1\a63fdc3bf3db1bfe3cdac538e83846cd\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+113
+114        <meta-data
+114-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\me\.gradle\caches\transforms-2\files-2.1\6c91106522d4d16271e62e8127cca3a1\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+115            android:name="com.google.android.gms.version"
+115-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\me\.gradle\caches\transforms-2\files-2.1\6c91106522d4d16271e62e8127cca3a1\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+116            android:value="@integer/google_play_services_version" />
+116-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\me\.gradle\caches\transforms-2\files-2.1\6c91106522d4d16271e62e8127cca3a1\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+117    </application>
+118
+119</manifest>

@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Users\\me\\code\\make_rss_fetch\\build\\url_launcher\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png",
+        "source": "C:\\Users\\me\\.gradle\\caches\\transforms-2\\files-2.1\\56bd956c422b271047080580dafa6b10\\core-1.0.0\\res\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\me\\code\\make_rss_fetch\\build\\url_launcher\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png",
+        "source": "C:\\Users\\me\\.gradle\\caches\\transforms-2\\files-2.1\\56bd956c422b271047080580dafa6b10\\core-1.0.0\\res\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\me\\code\\make_rss_fetch\\build\\url_launcher\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\notify_panel_notification_icon_bg.png",
+        "source": "C:\\Users\\me\\.gradle\\caches\\transforms-2\\files-2.1\\56bd956c422b271047080580dafa6b10\\core-1.0.0\\res\\drawable-xhdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\me\\code\\make_rss_fetch\\build\\url_launcher\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\notification_bg_normal.9.png",
+        "source": "C:\\Users\\me\\.gradle\\caches\\transforms-2\\files-2.1\\56bd956c422b271047080580dafa6b10\\core-1.0.0\\res\\drawable-xhdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\me\\code\\make_rss_fetch\\build\\url_launcher\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png",
+        "source": "C:\\Users\\me\\.gradle\\caches\\transforms-2\\files-2.1\\56bd956c422b271047080580dafa6b10\\core-1.0.0\\res\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png"
+    }
+]
